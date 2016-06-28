@@ -1,0 +1,211 @@
+html{width:100%;height:2000px;background:url(ball.jpg)no-repeat;
+background-attachment:fixed;}
+body{background-color:#00FFFF;width:90%;height:1700px;
+transform:translate(70px,70px);
+border-radius:10px;}
+
+
+/*barner*/
+.headingdiv0{width:100%;height:180px;background-color:#ace;
+border-radius:10px 0px 0px 0px;}
+.headingdiv1{float:left;width:21%;height:180px;background:url(khair.jpg)no-repeat;
+background-size:100% 100%;
+border-radius:100%;}
+.headingdiv2{float:left;width:58%;height:180px;background-color:#ace;}
+.unionname{font-size:60px;color:#0ff;}
+.headingdiv3{float:right;width:21%;height:180px;background-color:#00FFFF;
+border-radius:0px 10px 0px 0px;}
+/*berner end*/
+
+
+/*শিরনাম সময় heading time end */
+.headingtime{width:100%;height:20px;background-color:#eee;}
+.animationh{float:left;background:url(color2.gif)no-repeat;
+background-size:100% 100%;
+	width:80%;
+	height:20px;
+font-size:15px;
+}
+
+.ani{float:left;background:url(color2.gif)no-repeat;
+background-size:100% 100%;
+width:10%;
+	height:20px;
+	border-radius:100px 0px 0px 100px;
+color:black;
+font-size:15px;
+
+}
+.time{float:right;background:url(color2.gif)no-repeat;
+background-size:100% 100%;
+width:10%;
+font-size:15px;
+	height:20px;
+	border-radius:0px 100px 100px 0px;
+color:blue;
+font-weight:bold;
+}
+.p{
+	color: #000;
+	transform: translate(2px,0px);
+	font-size: 15px;
+	font-weight:bold;
+	
+}
+/*শিরনাম সময় heading time end */
+
+
+
+
+/*menucss*/
+
+.menudiv{width:100%;height:25px;background-color:#ddd;}
+
+.menu{background-color:#aaa;
+    width:100%;
+    height:25px;
+	border-radius:2px;}
+
+*{
+	  margin:0px;
+	  padding:0px;}
+
+.menu ul{list-style-type:none;
+
+}
+
+.menu ul li{background:linear-gradient(white,lime,white);
+background-size:100% 100%;
+border:0px solid lime;
+width:202px;
+height:25px;
+text-align:center;
+line-height:25px;
+float:left;
+position:relative;
+border-radius:100%;
+font-size:12px;
+font-family:algerian;}
+
+
+
+.menu ul li a{text-decoration:none;
+color:red;
+display:block}
+
+
+.menu ul li a:hover{background:url(color1.gif)no-repeat;
+background-size:100% 100%;
+color:white;border-radius:100%;
+font-size:15px;
+font-family:Edwardian Script ITC;}
+
+
+.menu ul ul{position:absolute;display:none;
+margin:0;
+padding:0;}
+
+.menu ul li:hover> ul
+{display:block;
+}
+
+/*menucss end*/
+
+
+
+
+
+
+
+/*bodydiv*/
+.bddiv{width:100%;height:1320px;background-color:#ace;}
+
+.leftdiv1{float:left;width:22%;height:1320px;background-color:#535;}
+/*calculator*/
+
+.leftdiv2{float:left;width:61%;height:1320px;background-color:#a;}
+.sliderimg{float:right;background-color:white;width:50%;height:300px;}
+.sliderpara{float:left;background-color:white;width:50%;height:300px;
+border:2px solid blue;}
+/**/
+.agecalculatordiv{float:left;width:45%;height:250px;
+border:2px solid blue;}
+
+
+.sliderdiv{float:right;width:53%;height:250px;
+border:2px solid blue;}
+
+
+.rightdiv{float:right;width:17%;height:1320px;background-color:#996;}
+
+
+l
+
+
+
+			/*-----Slider Style----*/
+			.wrapper {
+				padding:0;
+				margin:0;
+			}
+			.list_carousel {
+				background-color: #0FE;
+				margin:0;
+			}
+			.list_carousel ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+			}
+			.list_carousel li {
+				width:80%;
+				padding: 0;
+				margin:6px;
+				float: left;
+			}
+			.list_carousel li img{
+				height:300px;
+				display:block;
+				width:100%;
+				
+			}
+			.list_carousel.responsive {
+				width: auto;
+				margin-left: 0;
+			}
+			.clearfix {
+				float: none;
+				clear: both;
+			}
+			.prev {color:red;
+			font-size:20px;
+				float: left;
+				margin-left: 10px;
+			}
+			.next {color:green;
+			font-size:20px;
+				float: right;
+				margin-right: 10px;
+			}
+			.pager {
+				float: left;
+				width: 300px;
+				text-align: center;
+			}
+			.pager a {
+				margin: 0 5px;
+				text-decoration: none;
+			}
+			.pager a.selected {
+				text-decoration: underline;
+			}
+			/*-----//Slider Style----*/
+		
+
+footer{height:150px;width:100%;
+ background: -webkit-linear-gradient(left, #0FF, orange, #aceddd, green, #DDA0DD, #ace, #00fa9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #0FF, orange,#aceddd, green, #DDA0DD, #ace, #00fa9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #0FF, orange,#aceddd, green, #DDA0DD, #ace, #00fa9a); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, #0FF, orange, #aceddd, green, #DDA0DD, #ace, #00fa9a); /* Standard syntax (must be last) */;
+border-radius:0px 0px 10px 10px;}
